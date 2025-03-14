@@ -1,10 +1,16 @@
 # VAMP with Arbitrary IID Noise Priors
 ##### Mohamed Akrout, Tiancheng Gao, Faouzi Bellili, Amine Mezghani
-This repository contains the Matlab code of the algorithm proposed in our ICASSP 2024's paper: [Vector Approximate Message Passing With Arbitrary I.I.D. Noise Priors](https://arxiv.org/abs/2402.04111).
+This repository contains the Matlab code of the algorithm proposed in our ICASSP 2024's paper:
+ [Vector Approximate Message Passing With Arbitrary I.I.D. Noise Priors](https://arxiv.org/abs/2402.04111).
 
 
 ## Abstract
-Approximate message passing (AMP) algorithms are devised under the Gaussianity assumption of the measurement noise vector. In this work, we relax this assumption within the vector AMP (VAMP) framework to arbitrary independent and identically distributed (i.i.d.) noise priors. We do so by rederiving the linear minimum mean square error (LMMSE) to accommodate both the noise and signal estimations within the message passing steps of VAMP. Numerical results demonstrate how our proposed algorithm handles non-Gaussian noise models as compared to VAMP. This extension to general noise priors enables the use of AMP algorithms in a wider range of engineering applications where non-Gaussian noise models are more appropriate.
+Approximate message passing (AMP) algorithms are devised under the Gaussianity assumption of the measurement noise vector. In this work, 
+we relax this assumption within the vector AMP (VAMP) framework to arbitrary independent and identically distributed (i.i.d.) noise priors. 
+We do so by rederiving the linear minimum mean square error (LMMSE) to accommodate both the noise and signal estimations within the message 
+passing steps of VAMP. Numerical results demonstrate how our proposed algorithm handles non-Gaussian noise models as compared to VAMP. 
+This extension to general noise priors enables the use of AMP algorithms in a wider range of engineering applications where non-Gaussian noise models 
+are more appropriate.
 
 ## Repository Structure
 This repository contains two folders:
